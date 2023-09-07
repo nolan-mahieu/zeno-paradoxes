@@ -1,6 +1,5 @@
 # Définition des constantes
 
-DISTANCE_TOTALE = 100
 VITESSE_ACHILLE = 10
 VITESSE_TORTUE = 1
 
@@ -11,24 +10,16 @@ position_tortue = 0
 
 # Boucle de simulation
 
-for i in range(DISTANCE_TOTALE):
-
+for i in range(100):
     # Avancement d'Achille
-
     position_achille += VITESSE_ACHILLE
 
     # Avancement de la Tortue
-
     position_tortue += VITESSE_TORTUE
 
     # Affichage des positions
+    print(f"Itération {i}: Achille est à {position_achille} et la Tortue est à {position_tortue}")
 
-    print("Achille :", position_achille)
-    print("Tortue :", position_tortue)
+# Affichage du résultat final
 
-# Vérification du résultat
-
-if position_achille > position_tortue:
-    print("Achille a gagné !")
-else:
-    print("La Tortue a gagné !")
+print(f"Achille a finalement rattrapé la Tortue à l'itération {i}")
