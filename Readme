@@ -1,4 +1,5 @@
 Projet de Simulation des Paradoxes de Zénon
+
 Contexte
 Ce projet consiste en une série de simulations interactives réalisées en utilisant la bibliothèque Python Pygame. Chaque simulation représente l'un des paradoxes célèbres de Zénon d'Élée, un philosophe grec antique. Ces paradoxes mettent en lumière des concepts philosophiques et mathématiques fascinants liés au mouvement et à la division de l'espace.
 
